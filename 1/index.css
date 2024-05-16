@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #c72724;  
+}
+
+.hero .title {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .title div h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: white;
+}
+.hero .title div p {
+  font-size: 20px;
+  max-width: 700px;
+  color: white;
+}
+.hero .title img {
+  width: 130px;
+  height: unset;
+  border-radius: 20px;
+}
+.hero .ip {
+  margin-right: 10px;
+  margin-top: 50px;
+  
+}
+
+.hero .ip img {
+  width: unset;
+  height: 130px;
+  border-radius: 10px;
+  margin-right: 10px;
+}

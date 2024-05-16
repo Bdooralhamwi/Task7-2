@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(31, 31, 70);
+  height: 100vh;
+}
+.hero h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+.hero div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.hero div i {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  color: black;
+}
+.hero div i.active,
+.hero div i.active ~ i {
+  color: yellow;
+}
+.hero p {
+  font-size: 20px;
+  color: white;
+}

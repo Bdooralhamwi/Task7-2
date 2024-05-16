@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+.hero .expand {
+  width: 40%;
+  background-color: rgb(164, 220, 164);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.hero .head {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.hero .open button {
+  transform: rotate(180deg);
+}
+.hero button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.hero .content {
+  padding: 10px;
+  display: none;
+}
+.hero .open .content {
+  display: block;
+}
